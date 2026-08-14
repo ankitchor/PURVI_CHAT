@@ -50,7 +50,7 @@ async def ping(client, message: Message):
     minutes, seconds = divmod(remainder, 60)
     await message.reply_photo(
         photo=random.choice(IMG),
-        caption=f"**ʜєʏ ʙᴧʙʏ !!**\n**{client.me.mention} ɪꜱ ᴧʟɪᴠє 🥀 ᴧηᴅ ᴡσʀᴋɪηɢ ꜰɪηє ᴡɪᴛʜ**\n\n**➥ ᴘσηɢ :** `{ms}` ms\n**➥ ᴜᴘᴛɪϻє :** `{hours}`ʜ:`{minutes}`ᴍ:`{seconds}`s\n\n**✦ 𝐏σᴡєʀєᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**",
+        caption=f"**ʜєʏ ʙᴧʙʏ !!**\n**{client.me.mention} ɪꜱ ᴧʟɪᴠє 🥀 ᴧηᴅ ᴡσʀᴋɪηɢ ꜰɪηє ᴡɪᴛʜ**\n\n**➥ ᴘσηɢ :** `{ms}` ms\n**➥ ᴜᴘᴛɪϻє :** `{hours}`ʜ:`{minutes}`ᴍ:`{seconds}`s\n\n**✦ 𝐏σᴡєʀєᴅ вʏ » [Ankit](t.me/ytnaisha)**",
         reply_markup=InlineKeyboardMarkup(get_png_btn()),
     )
 
@@ -68,8 +68,8 @@ async def stats(client: app, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{client.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/SHIRICHAT_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/shremusicbot"),
                 ]
             ]
         )
