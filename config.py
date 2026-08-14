@@ -25,11 +25,11 @@ AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", None)) # Fsub Channel Id
 FSUB = getenv("FSUB", True) # Promote Bot Admin on Your Channel (Fsub Channel Id Channel ) 
 
 OWNER_ID = int(getenv("OWNER_ID", None))
-OWNER = 7473021518
-LOGGER_GROUP_ID = -1003673268434 # Bot Events Logs
+OWNER = 8417510906
+LOGGER_GROUP_ID = -1004329547999 # Bot Events Logs
 
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "PURVI_BOTS")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "PURVI_UPDATES")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "ytnaisha")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "shree_update")
 
 
 STICKER = [
