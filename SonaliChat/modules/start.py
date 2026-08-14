@@ -89,10 +89,10 @@ HELP_ABOUT =f"""
 ● ᴋєєᴘ ʏσᴜʀ ᴧᴄᴛɪᴠє ɢʀσᴜᴘ.
 ● ᴧᴅᴅ ϻє ηᴏᴡ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀσᴜᴘs.
 ─────────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ᴘᴜʀᴠɪ-ʙᴏᴛs](https://t.me/{UPDATES_CHANNEL})
-❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴘᴜʀᴠɪ-ᴜᴘᴅᴀᴛᴇs](https://t.me/{SUPPORT_GROUP})
-❖ ʙᴏᴛ σᴡηєʀ ➥ [⎯᪵፝֟፝֟⎯꯭𓆩꯭ 𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭‌꯭🥂꯭༎꯭ 𓆪](https://t.me/TheSigmaCoder)
-❖ ʀєᴘσ ʟɪηᴋ ➥ [ᴄʟɪᴄᴋ-ʜєʀє](github.com/TEAMPURVI/PURVI_CHAT)
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ytnaisha-ʙᴏᴛs](https://t.me/ytnaisha)
+❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [shree-ᴜᴘᴅᴀᴛᴇs](https://t.me/shree_update)
+❖ ʙᴏᴛ σᴡηєʀ ➥ [⎯᪵፝֟፝֟𝚨 ꪀ 𝛋 𝛊֟፝ؖ۬ 𝛕 🫧 •๋๋๋๋๋๋๋๋๋๋๋𝆺꯭𝅥•๋๋๋๋๋๋๋๋๋๋๋𝆺꯭𝅥».🪼𓆪ꪾ⇢](https://t.me/vip_ankit_121)
+❖ ʀєᴘσ ʟɪηᴋ ➥ [ᴄʟɪᴄᴋ-ʜєʀє](https://github.com/rockStar378/)
 ─────────────────────────**
 """
 
@@ -117,7 +117,7 @@ HELP_READ =f"""
 
 /broadcast message - sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ɢʀᴏᴜᴘs & ᴜsᴇʀs.
 
-✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ankit](t.me/vip_ankit_121)**
 """
 
 
@@ -243,8 +243,8 @@ async def help_command(client, message):
         caption=HELP_READ,
         reply_markup=InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{client.me.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
-                InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}")
+                InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/SHIRICHAT_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
+                InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP")
             ]
         ])
     )
