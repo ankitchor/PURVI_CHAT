@@ -43,8 +43,8 @@ def get_stbutton():
 
 ABOUT_BUTTON = [
     [
-        InlineKeyboardButton("⌯ 𝛅ᴜᴘᴘσʀᴛ ⌯", url=f"https://t.me/{SUPPORT_GROUP}"),
-        InlineKeyboardButton("⌯ ᴜᴘᴅᴧᴛє ⌯", url=f"https://t.me/{UPDATES_CHANNEL}")
+        InlineKeyboardButton("⌯ 𝛅ᴜᴘᴘσʀᴛ ⌯", url=f"https://t.me/ytnaisha"),
+        InlineKeyboardButton("⌯ ᴜᴘᴅᴧᴛє ⌯", url=f"https://t.me/shree_update")
     ],
     [
         InlineKeyboardButton("⌯ ʙᴧᴄᴋ ⌯", callback_data=f"HELP_BACK")
@@ -54,7 +54,7 @@ ABOUT_BUTTON = [
 HELP_BACK = [
 
     [
-        InlineKeyboardButton(text="𝛅ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
+        InlineKeyboardButton(text="𝛅ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ytnaisha"),
         InlineKeyboardButton(text="вᴧᴄᴋ", callback_data="HELP_BACK"),
     ],
 ]
@@ -72,7 +72,7 @@ def get_start_text():
 │✦ ηᴏ ᴧʙᴜsɪηɢ & zєʀσ ᴅσᴡηᴛɪϻє.🍫
 │✦ ᴄʟɪᴄᴋ ʜєʟᴘ ʙᴜᴛᴛση ғσʀ ʜєʟᴘs.❤️‍🔥
 ├────────────────────⦿
-│❖ ϻᴧᴅє ʙʏ...[˹ ᴘᴜʀᴠɪ-ᴍᴜ𝛅𝛊ᴄ™ ˼](t.me/{SUPPORT_GROUP})♡
+│❖ ϻᴧᴅє ʙʏ...[˹ NAISHA-ᴍᴜ𝛅𝛊ᴄ™ ˼](t.me/ytnaisha)♡
 ╰────────────────────⦿**
 """
 
@@ -244,7 +244,7 @@ async def help_command(client, message):
         reply_markup=InlineKeyboardMarkup([
             [
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/SHIRICHAT_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
-                InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP")
+                InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ytnaisha")
             ]
         ])
     )
@@ -258,7 +258,7 @@ async def help_button(client, callback_query):
     keyboard = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data="back"),
-            InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}")
+            InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ytnaisha")
         ]
     ])
     await callback_query.answer()
