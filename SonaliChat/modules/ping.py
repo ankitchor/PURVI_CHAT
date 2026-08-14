@@ -25,11 +25,11 @@ def get_png_btn():
         [
             InlineKeyboardButton(
                 text="ʌᴅᴅ ϻє", 
-                url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"
+                url=f"https://t.me/SHIRICHAT_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"
             ),
             InlineKeyboardButton(
                 text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", 
-                url=f"https://t.me/{SUPPORT_GROUP}"
+                url=f"https://t.me/ytnaisha"
             ),
         ],
     ]
@@ -69,7 +69,7 @@ async def stats(client: app, message: Message):
             [
                 [
                     InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/SHIRICHAT_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/shremusicbot"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/shree_update"),
                 ]
             ]
         )
